@@ -8,17 +8,19 @@ void setup() {
   rows = height/200-1;
   size(1000, 1000);
   aDie = new Die();
+  background(255, 255, 255);
   roll();
 }
 void draw() {
 
 }
 void mousePressed() {
+  background(255, 255, 255);
   roll();
 }
 
 void roll() {
-background(255, 255, 255);
+
   total = 0;
   for (int y = 0; y < rows; y++) {
     for (int x = 0; x < cols; x++) {
